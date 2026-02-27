@@ -1,0 +1,39 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Testes / cobertura / ferramentas
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Build / empacotamento (PyInstaller etc.)
+build/
+dist/
+*.spec
+*.toc
+
+# Logs
+*.log
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
