@@ -1,0 +1,28 @@
+{
+  "datasets": [
+    {
+      "info": { "id": "dados_municipios", "label": "Parana e Poconé" },
+      "data": {
+        "fields": [
+          { "name": "cidade", "type": "string" },
+          { "name": "valor", "type": "integer" },
+          { "name": "lat", "type": "real" },
+          { "name": "lng", "type": "real" }
+        ],
+        "allData": [
+          ["CAMBE", 8, -23.2757, -51.2782],
+          ["CAMPO LARGO", 2, -25.4578, -49.5292],
+          ["CORBELIA", 2, -24.7958, -53.3072],
+          ["IRETAMA", 5, -24.0558, -52.2458],
+          ["LARANJEIRAS DO SUL", 10, -25.4081, -52.4161],
+          ["LUIZIANA", 2, -24.2825, -52.2758],
+          ["POCONE", 2, -16.2567, -56.6225],
+          ["RESERVA DO IGUACU", 9, -25.8361, -52.0289],
+          ["ROLANDIA", 4, -23.2342, -51.3653],
+          ["TIBAGI", 1, -24.5111, -50.4136],
+          ["TRES BARRAS DO PARANA", 1, -25.4189, -53.4131]
+        ]
+      }
+    }
+  ]
+}

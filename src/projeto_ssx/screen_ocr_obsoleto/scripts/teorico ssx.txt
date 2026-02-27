@@ -1,0 +1,29 @@
+funções
+fechar quando apertar esc
+esperar carregamento da ssx
+procurar por imagem especifica
+funçao de somar para proxima guia ssx
+funçao de somar para proxima guia planilha
+
+f1:
+mostrar coordenada para configurar no print
+
+f2:
+    n1-> pesquisar veiculo
+    -clicar na primeira aba da ssx
+        >pegar da planilha 
+            -coordenada
+            -copiar
+            -clicar ssx
+        >buscar na sxx
+            -esperar carregamento da pagina
+            -clicar no pesquisar
+            -esperar carregamento ficar cinza
+            -colar 
+            -esperar imagem do fone
+        >ir para proxima aba da ssx
+    n2-> abrir historico
+       >abrir
+       >ir pra proxima guia 
+    n3-> expandir historico
+
