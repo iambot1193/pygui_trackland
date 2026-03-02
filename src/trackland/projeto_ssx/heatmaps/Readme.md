@@ -1,7 +1,7 @@
 # heatmaps_kepler
 
 Script em Python que processa um arquivo `.txt` com linhas no formato `CIDADE valor` e gera um `.csv` contendo **latitude/longitude (geocoding)** via **Nominatim (OpenStreetMap)**.  
-O CSV gerado é **pronto para importação no Kepler.gl**, usando o campo `valor` como **peso/intensidade** para facilitar a visualização de **manutenções de placas com problemas**.
+O CSV gerado é **pronto para importação no Kepler.gl(https://kepler.gl/demo)**, usando o campo `valor` como **peso/intensidade** para facilitar a visualização de **manutenções de placas com problemas**.
 
 ## O que ele faz
 - Lê **um** arquivo `*.txt` na pasta `data/` *(mantenha apenas 1 arquivo por execução)*  
