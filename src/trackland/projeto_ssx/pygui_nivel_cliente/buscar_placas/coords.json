@@ -1,0 +1,77 @@
+{
+  "imagem_menu1.png": {
+    "x": 262,
+    "y": 125
+  },
+  "imagem_menu2.png": {
+    "x": 258,
+    "y": 169
+  },
+  "inicialx.png": {
+    "x": 121
+  },
+  "inicialy.png": {
+    "y": 26
+  },
+  "pag2.png": {
+    "x": 286,
+    "y": 24
+  },
+  "pag3.png": {
+    "x": 444,
+    "y": 25
+  },
+  "somar_proximaguia": 161.5,
+  "icone_lupa.png": {
+    "x": 1728,
+    "y": 132
+  },
+  "esquerda_laranja_abrir_busca.png": {
+    "x": 1371,
+    "y": 187
+  },
+  "campo_2_busca_placa.png": {
+    "x": 1628,
+    "y": 214
+  },
+  "meio_detectar_placa.png": {
+    "x": 1440,
+    "y": 352
+  },
+  "meio_detectar_duas_placas.png": {
+    "x": 1436,
+    "y": 568
+  },
+  "abrir_chamado_placa.png": {
+    "x": 1406,
+    "y": 354
+  },
+  "seta_historico_unidade_rastrada.png": {
+    "x": 58,
+    "y": 747
+  },
+  "abrir_historico_unidade.png": {
+    "x": 243,
+    "y": 408
+  },
+  "abrir_historico.png": {
+    "x": 720,
+    "y": 611
+  },
+  "botao_ok_parte_preta.png": {
+    "x": 723,
+    "y": 663
+  },
+  "botao_menos.png": {
+    "x": 298,
+    "y": 672
+  },
+  "data_parte_esquerda.png": {
+    "x": 355,
+    "y": 746
+  },
+  "maximo_esquerda_na_tela.png": {
+    "x": 10,
+    "y": 745
+  }
+}

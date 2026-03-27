@@ -45,24 +45,30 @@ root_overlay = None
 def iniciar_overlay():
     global label_status, root_overlay
     root_overlay = tk.Tk()
-    root_overlay.overrideredirect(True) # Remove bordas
-    root_overlay.attributes("-topmost", True) # Sempre no topo
+    
+    # --- CONFIGURAÇÕES VISUAIS ---
+    root_overlay.overrideredirect(True) # Remove bordas e botões de fechar
+    root_overlay.attributes("-topmost", True) # Mantém no topo das outras janelas
     root_overlay.configure(bg="black")
     
-    # Posicionamento (Canto inferior direito, acima da barra de tarefas)
+    # --- POSICIONAMENTO NO CANTO INFERIOR ---
     largura, altura = 300, 40
-    posX =  10
-    posY = root_overlay.winfo_screenheight() - altura - 0 # 50px de folga da barra
+    posX = 10
+    # O winfo_screenheight pega a altura total. 
+    # Subtraímos a altura da janela e +60px para ficar acima da barra de tarefas.
+    posY = root_overlay.winfo_screenheight() - altura - 60 
+    
     root_overlay.geometry(f"{largura}x{altura}+{posX}+{posY}")
 
     label_status = tk.Label(
         root_overlay, 
-        text="Aguardando...", 
+        text="AGUARDANDO...", 
         fg="red", 
         bg="black", 
         font=("Arial", 11, "bold")
     )
     label_status.pack(expand=True, fill='both')
+    
     root_overlay.mainloop()
 
 # Inicia a janela em uma via paralela para não travar o script
