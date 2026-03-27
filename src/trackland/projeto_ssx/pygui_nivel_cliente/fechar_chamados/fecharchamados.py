@@ -1,7 +1,6 @@
 import pyautogui as pa
 import time
 import keyboard
-import pyperclip
 import json
 from pathlib import Path
 import os
@@ -32,9 +31,9 @@ ARQ = BASE_DIR / "coordsFechamento.json"
 pa.PAUSE = 0.05
 
 # Bloqueio de teclas de sistema
-teclas_bloqueio = ["f1", "esc", "f2", "f3", "f4", "f6", "f7", "f8"]
-for tecla in teclas_bloqueio:
-    keyboard.block_key(tecla)
+
+
+keyboard.block_key("f2")
 
 # =================== LER COORDS DO JSON =====================
 if not ARQ.exists():
@@ -86,6 +85,7 @@ while True:
         
     # Acionamento da automação via F2
     if keyboard.is_pressed('f2'):
+        print("rodou")
         
         messagebox.showwarning("Atenção!", "O SCRIPT ESTÁ EM ANDAMENTO, PRESSIONE ESC QUANDO OS CHAMADOS ACABAREM!")
         time.sleep(0.2)
